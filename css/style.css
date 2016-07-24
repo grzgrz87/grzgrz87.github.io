@@ -83,7 +83,8 @@ div#bs-example-navbar-collapse-1 {
 }
 .logo{
     float: left;
-    margin: 1em 0 0 0;
+    margin: 4em 0 0 0;
+    position: absolute;
 }
 .logo h1{
 	margin:0;
@@ -137,28 +138,25 @@ ul.nav.navbar-nav {
 }
 /*-- slider --*/
 .slider {
-    background: url(../images/8.jpg) no-repeat 0px 0px;
+    background: url(../images/slider/1.jpg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 800px;
 }
 .slider1 {
-    background: url(../images/3.jpg) no-repeat 0px 0px;
+    background: url(../images/slider/1.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 .slider2 {
-    background: url(../images/2.jpg) no-repeat 0px 0px;
+    background: url(../images/slider/1.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 .slider-grid{
-	width: 290px !important;
+	width: 600px !important;
     top: 23%;
     position: absolute;
     height: 290px;
     margin: 3em auto 0;
     text-align: center;
-    border: solid 2px #fff;
-    padding: 5em 0 0 0;
-    border-radius: 50%;
     -webkit-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
@@ -605,7 +603,7 @@ ul.nav.navbar-nav {
     background: #DCEDF9;
 }
 .about-bg{
-    background: url(../images/8.jpg) no-repeat 0px 0px;
+    background: url(../images/slider/1.jpg) no-repeat 0px 0px;
     background-size: cover;
     position: inherit;
     min-height: 125px;
@@ -653,7 +651,7 @@ ul.nav.navbar-nav {
 /*-- //a-about --*/
 /*-- different --*/
 .different{
-    background: url(../images/8.jpg) no-repeat 0px 0px;
+    background: url(../images/slider/1.jpg) no-repeat 0px 0px;
     padding: 4em 0;
     background-size: cover;
 }
@@ -718,7 +716,7 @@ ul.nav.navbar-nav {
 	color:#383838;
 }
 .team-grids {
-    margin: 4em 0 0 0;
+    margin: 0em 0 0 0;
 }
 .agileinfo-team-grid{
 	position:relative;
@@ -863,7 +861,7 @@ ul.nav.navbar-nav {
 	margin:2em 0;
 }
 .more-offer{
-	background: url(../images/3.jpg) no-repeat 0px 0px;
+	background: url(../images/slider/1.jpg) no-repeat 0px 0px;
     padding: 4em 0;
     background-size: cover;
 }
@@ -2242,7 +2240,7 @@ button.btn1:hover{
 		padding: 0;
 	}
 	.team-grids {
-		margin: 2em 0 0 0;
+		margin: 0em 0 0 0;
 	}
 }
 @media (max-width:375px){
