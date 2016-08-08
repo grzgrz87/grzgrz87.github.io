@@ -1050,6 +1050,9 @@ h2.typoh2{
 }
 }
 @media (max-width:640px){
+	.logo{
+		display: none;
+	}
 	h1, .h1, h2, .h2, h3, .h3 {
 		margin-top: 0px;
 		margin-bottom: 0px;
@@ -2420,7 +2423,7 @@ button.btn1:hover{
 		margin: .5em 0 0 0;
 	}
 	.logo {
-		margin: .5em 0 0 0;
+		display: none;
 	}
 	.gallery-bg-text:after {
 		width: 240px;
