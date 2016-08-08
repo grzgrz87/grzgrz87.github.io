@@ -602,7 +602,7 @@ ul.nav.navbar-nav {
     padding: 4em 0;
     background: #DCEDF9;
 }
-.about-bg{
+.about-basebg,.gallery-basebg,.services-basebg,.contact-basebg{
     background: url(../images/slider/1.jpg) no-repeat 0px 0px;
     background-size: cover;
     position: inherit;
