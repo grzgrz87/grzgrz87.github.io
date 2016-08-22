@@ -4,38 +4,68 @@
 		<div class="footer-grids">
 			<div class="col-md-3 footer-grid">
 				<div class="footer-grid-heading">
-					<h4>Address</h4>
+					<h4>Adres</h4>
 				</div>
 				<div class="footer-grid-info">
 					<p>
-						Eiusmod Tempor inc <span>St Dolore Place,Kingsport 56777.</span>
+						Dacza turysty i biegacza <span>Topory 14a,Zakopane 34-500</span>
 					</p>
 					<p class="phone">
-						Phone : +1 123 456 789 <span>Email : <a
-							href="mailto:example@email.com">mail@example.com</a></span>
+						Telefon : 661 066 769 <span>Email : <a
+							href="mailto:example@email.com">daczabiegacza@gmail.com</a></span>
 					</p>
 				</div>
 			</div>
-			<div class="col-md-3 footer-grid">
+			<div class="col-md-5 footer-grid">
 				<div class="footer-grid-heading">
-					<h4>Navigation</h4>
+					<h4>Mapa strony</h4>
 				</div>
-				<div class="footer-grid-info">
-					<ul>
-						<li><a href="about.html">About</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
+				<div class="col-md-6">
+
+					<div class="footer-grid-info">
+						<ul>
+							<li><a id="index-bar" href="index.html">Strona Główna</a></li>
+							<li><a id="about-bar" href="about.html">O nas</a></li>
+							<li><a id="services-bar" href="services.html">Oferta</a></li>
+						</ul>
+					</div>
 				</div>
+				<div class="col-md-6">
+
+					<div class="footer-grid-info">
+						<ul>
+							<li><a id="regulamin-bar" href="regulamin.html">Regulamin</a></li>
+							<li><a id="gallery-bar" href="gallery.html">Galeria</a></li>
+							<li><a id="contact-bar" href="contact.html">Kontakt</a></li>
+						</ul>
+					</div>
+				</div>
+
 			</div>
-			<div class="col-md-3 footer-grid">
+			<div class="col-md-4 footer-grid">
 				<div class="footer-grid-heading">
 					<h4>Follow</h4>
 				</div>
+				<div id="fb-root"></div>
+				<script>
+					(function(d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0];
+						if (d.getElementById(id))
+							return;
+						js = d.createElement(s);
+						js.id = id;
+						js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.7";
+						fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));
+				</script>
 				<div class="social">
 					<ul>
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><div class="fb-share-button"
+								data-href="" data-layout="button"
+								data-size="large" data-mobile-iframe="true">
+								<a class="fb-xfbml-parse-ignore" target="_blank"
+									href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgrzgrz87.github.io%2F&amp;src=sdkpreparse">Udostępnij</a>
+							</div></li>
 						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 						<li><a href="#"><i class="fa fa-rss"></i></a></li>
 						<li><a href="#"><i class="fa fa-vk"></i></a></li>
@@ -43,12 +73,6 @@
 				</div>
 			</div>
 			<div class="clearfix"></div>
-		</div>
-		<div class="copyright">
-			<p>
-				� 2016 My Trip . All Rights Reserved | Design by <a
-					href="http://w3layouts.com/"> W3layouts</a>
-			</p>
 		</div>
 	</div>
 </div>
