@@ -12,7 +12,7 @@ body a {
   -ms-transition: 0.5s all;
 }
 html, body{
-    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
     font-size: 100%;
 }
 .banner{
@@ -93,7 +93,7 @@ div#bs-example-navbar-collapse-1 {
 	color:#fff;
 	font-size:1em;
 	text-decoration:none;
-	font-family: 'Pacifico', cursive;
+	/* font-family: 'Pacifico', cursive; */
 }
 /*-- top-nav --*/
 .top-nav {
@@ -166,7 +166,7 @@ ul.nav.navbar-nav {
     color: #fff;
     font-size: 3em;
     margin: 0;
-    font-family: 'Pacifico', cursive;
+   /*  font-family: 'Pacifico', cursive; */
 }
 .slider-grid p{
     color: #fff;
@@ -200,7 +200,7 @@ ul.nav.navbar-nav {
     margin: 0;
     font-size: 3em;
     color: #383838;
-	font-family: 'Pacifico', cursive;
+	/* font-family: 'Pacifico', cursive; */
 }
 .w3l-about-heading p,.codes-heading p,.w3l-contact-heading p{
 	text-align: center;
@@ -223,7 +223,7 @@ ul.nav.navbar-nav {
     color: #FFF;
     font-size: 2em;
     margin: 0;
-    font-family: 'Pacifico', cursive;
+    /* font-family: 'Pacifico', cursive; */
     line-height: 7.5em;
 }
 .about-grid-info1{
@@ -338,7 +338,7 @@ ul.nav.navbar-nav {
     margin: 0;
     font-size: 3em;
     color: #383838;
-	font-family: 'Pacifico', cursive;
+	/* font-family: 'Pacifico', cursive; */
 }
 .news-heading p {
     text-align: center;
@@ -661,7 +661,7 @@ ul.nav.navbar-nav {
     margin: 0;
     font-size: 3em;
     color: #FFF;
-    font-family: 'Pacifico', cursive;
+   /*  font-family: 'Pacifico', cursive; */
 }
 .w3-different-heading p,.agileinfo-team-heading p,.more-bottom-heading p {
     text-align: center;
