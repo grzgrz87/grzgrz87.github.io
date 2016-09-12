@@ -407,6 +407,9 @@ ul.nav.navbar-nav {
     padding: 1em 0;
     background: #FFF;
 }
+.footer-grid-heading{
+	padding-top: 1em;
+}
 .footer-grid-heading h4{
 	color:#383838;
 	font-size:2em;
@@ -421,6 +424,11 @@ ul.nav.navbar-nav {
     color: #2e2f2f;
     line-height: 1.8em;
 }
+
+.footer-grid img{
+	width: 75%;
+}
+
 .footer-grid-info p span{
 	display:block;
 }
