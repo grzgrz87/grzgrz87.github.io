@@ -131,6 +131,7 @@ ul.nav.navbar-nav {
 }
 .top-nav ul li a:hover{
     color: black !important;
+    text-decoration: underline
 }
 .top-nav ul li a.active{
     color: black !important;
