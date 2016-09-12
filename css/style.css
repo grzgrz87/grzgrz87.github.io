@@ -406,11 +406,11 @@ ul.nav.navbar-nav {
 /*-- //news --*/
 /*-- footer --*/
 .footer{
-    padding: 1em 0;
+    padding: 0em 0;
     background: #FFF;
 }
 .footer-grid-heading{
-	padding-top: 1em;
+	padding-top: 0em;
 }
 .footer-grid-heading h4{
 	color:#381800;
