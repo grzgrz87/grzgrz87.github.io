@@ -130,7 +130,7 @@ ul.nav.navbar-nav {
     
 }
 .top-nav ul li a:hover{
-    color: #fd5c63 !important;
+    color: black !important;
 }
 .top-nav ul li a.active{
     color: black !important;
