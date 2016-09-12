@@ -121,11 +121,13 @@ ul.nav.navbar-nav {
     box-shadow: 1px 0px 0px 0px rgba(72, 72, 72, 0);
 }
 .top-nav ul li a{
-    color: #fff !important;
+    color: black !important;
     font-size: 1em;
     margin: 0;
     text-decoration: none;
     padding: 0;
+    font-weight: bold;
+    
 }
 .top-nav ul li a:hover{
     color: #fd5c63 !important;
@@ -152,7 +154,7 @@ ul.nav.navbar-nav {
 }
 .slider-grid{
 	width: 600px !important;
-    top: 23%;
+    top: 10%;
     position: absolute;
     height: 290px;
     margin: 3em auto 0;
@@ -181,10 +183,10 @@ ul.nav.navbar-nav {
 .copyright p{
 	margin: 0;
     font-size: .875em;
-    color: #BBBBBB;
+    color: #2e2f2f;
 }
 .copyright p a{
-	color: #BBBBBB;
+	color: #2e2f2f;
 }
 .copyright p a:hover{
 	color: #fd5c63;
@@ -375,7 +377,7 @@ ul.nav.navbar-nav {
 .news-grid-info-bottom-text p{
     margin: 1em 0 0 0;
     font-size: .875em;
-    color: #BBBBBB;
+    color: #2e2f2f;
     line-height: 1.8em;
 }
 .admin{
@@ -402,7 +404,7 @@ ul.nav.navbar-nav {
 /*-- //news --*/
 /*-- footer --*/
 .footer{
-    padding: 4em 0;
+    padding: 1em 0;
     background: #FFF;
 }
 .footer-grid-heading h4{
@@ -416,14 +418,14 @@ ul.nav.navbar-nav {
 .footer-grid-info  p{
 	margin:0;
     font-size: .875em;
-    color: #BBBBBB;
+    color: #2e2f2f;
     line-height: 1.8em;
 }
 .footer-grid-info p span{
 	display:block;
 }
 .footer-grid-info p span a{
-    color: #BBBBBB;	
+    color: #2e2f2f;	
 	text-decoration:none;
 }
 .footer-grid-info p span a:hover{
@@ -438,7 +440,7 @@ ul.nav.navbar-nav {
 }
 .footer-grid-info ul li a{
     font-size: .875em;
-    color: #BBBBBB;
+    color: #2e2f2f;
     line-height: 1.8em;
 	text-decoration:none;
 }
@@ -564,11 +566,11 @@ ul.nav.navbar-nav {
     background: #fff;
     box-shadow: none !important;
     padding: 10px 10px;
-    color: #BBBBBB;
+    color: #2e2f2f;
     font-size: .875em;
     width: 100% !important;
     font-weight: 400;
-    border: 1px solid #BBBBBB;
+    border: 1px solid #2e2f2f;
     margin: 0 0 1em 0;
 }
 .footer-grid-info form input[type="email"]:focus {
@@ -642,7 +644,7 @@ ul.nav.navbar-nav {
 .agileits-a-about-right p{
 	margin: 1em 0 0 0;
     font-size: .875em;
-    color: #BBBBBB;
+    color: #2e2f2f;
     line-height: 1.8em;
 }
 .agileits-a-about-right p span{
@@ -892,7 +894,7 @@ ul.nav.navbar-nav {
 .more-bottom-grid-text p{
 	margin: 1em 0 0 0;
     font-size: .875em;
-    color: #BBBBBB;
+    color: #2e2f2f;
     line-height: 1.8em;
 }
 /*-- //services --*/
@@ -1277,7 +1279,7 @@ h2.typoh2{
     margin: 0;
 }
 .contact-form-top p{
-    color: #BBBBBB;
+    color: #2e2f2f;
     margin: 2em 0;
     font-size: .875em;
     line-height: 1.8em;
@@ -1294,12 +1296,12 @@ h2.typoh2{
 	margin:1em 0;
 }
 .contact-address ul li span{
-	color: #BBBBBB;
+	color: #2e2f2f;
     font-size: .875em;	
 	margin-left:1em;
 }
 .contact-address ul li span a{
-	color: #BBBBBB;
+	color: #2e2f2f;
 	text-decoration:none;
 }
 .contact-address ul li span a:hover{
@@ -1329,34 +1331,33 @@ h2.typoh2{
 .contact-form-grid input[type="text"] {
     display: inline-block;
     background: none;
-    border: 1.5px solid #BBBBBB;
-    width: 100%;
+    border: 1.5px solid #BBBBB#2e2f2f width: 100%;
     outline: none;
     padding: 10px 15px 10px 15px;
     font-size: .9em;
-    color: #BBBBBB;
+    color: #2e2f2f;
     margin-bottom: 1.5em;
 }
 .contact-form-grid input[type="email"] {
     display: inline-block;
     background: none;
-    border: 1.5px solid #BBBBBB;
+    border: 1.5px solid #2e2f2f;
     width: 100%;
     outline: none;
     padding: 10px 15px 10px 15px;
     font-size: .9em;
-    color: #BBBBBB;
+    color: #2e2f2f;
     margin: 0 0 1.5em 0;
 }
 .contact-form-grid textarea {
     background: none;
-    border: 1.5px solid #BBBBBB;
+    border: 1.5px solid #2e2f2f;
     width: 100%;
     display: block;
     height: 150px;
     outline: none;
     font-size: 0.9em;
-    color: #BBBBBB;
+    color: #2e2f2f;
     resize: none;
     padding: 10px 15px 10px 15px;
     margin-bottom: 1em;
@@ -1448,7 +1449,7 @@ button.btn1:hover{
     width: 80%;
 }
 .media-left.response-text-left h5 a {
-    color: #BBBBBB
+    color: #2e2f2f
 }
 .media-left.response-text-left h5 a:hover {
     color: #3b3b3b;
@@ -1499,23 +1500,23 @@ button.btn1:hover{
 }
 .opinion form input[type="text"] {
     width: 100%;
-    color: #BBBBBB;
+    color: #2e2f2f;
     outline: none;
     font-size: .875em;
     padding: .5em;
     margin: 0 .5em 1em 0;
-    border: solid 1px #BBBBBB;
+    border: solid 1px #2e2f2f;
     -webkit-appearance: none;
 }
 .opinion form textarea {
     resize: none;
     width: 100%;
-    color: #BBBBBB;
+    color: #2e2f2f;
     font-size: .875em;
     outline: none;
     resize: none;
     padding: .5em;
-    border: solid 1px #BBBBBB;
+    border: solid 1px #2e2f2f;
     min-height: 125px;
 }
 .opinion form input[type="submit"] {
@@ -1580,7 +1581,7 @@ button.btn1:hover{
     padding-left: 2em;
 }
 .categories ul li a:hover {
-    color: #BBBBBB;
+    color: #2e2f2f;
     text-decoration: none;
     transition: .5s all;
     -webkit-transition: .5s all;
@@ -1988,7 +1989,7 @@ button.btn1:hover{
 		padding: 2em 0;
 	}
 	.footer {
-		padding: 2em 0;
+		padding: 1em 0;
 	}
 	.wthree-offer-grid p {
 		width: 100%;
