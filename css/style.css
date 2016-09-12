@@ -201,14 +201,14 @@ ul.nav.navbar-nav {
     text-align: center;
     margin: 0;
     font-size: 3em;
-    color: #383838;
+    color: #381800;
 	/* font-family: 'Pacifico', cursive; */
 }
 .w3l-about-heading p,.codes-heading p,.w3l-contact-heading p{
 	text-align: center;
     margin: 1em 0 0 0;
     font-size: .875em;
-    color: #383838;
+    color: #381800;
 }
 .about-grids {
     margin: 4em 0 0 0;
@@ -318,7 +318,7 @@ ul.nav.navbar-nav {
     margin: 2em 0 0 0;
 }
 .click-button a{
-    color: #383838;
+    color: #381800;
     font-size: .875em;
     padding: .5em 2em;
     background: #FFF;
@@ -339,14 +339,14 @@ ul.nav.navbar-nav {
     text-align: center;
     margin: 0;
     font-size: 3em;
-    color: #383838;
+    color: #381800;
 	/* font-family: 'Pacifico', cursive; */
 }
 .news-heading p {
     text-align: center;
     margin: 1em 0 0 0;
     font-size: .875em;
-    color: #383838;
+    color: #381800;
 }
 .news-grids {
     margin: 4em 0 0 0;
@@ -372,7 +372,7 @@ ul.nav.navbar-nav {
 	text-decoration:none;
 }
 .news-grid-info-bottom-text a:hover{
-	color:#383838;
+	color:#381800;
 }
 .news-grid-info-bottom-text p{
     margin: 1em 0 0 0;
@@ -384,7 +384,7 @@ ul.nav.navbar-nav {
 	float:left;
 }
 .admin a{
-	color:#383838;
+	color:#381800;
 	font-size:.875em;
 	margin:0;
 	text-decoration:none;
@@ -397,7 +397,7 @@ ul.nav.navbar-nav {
     margin-left: 7em;
 }
 .time p{
-	color:#383838;
+	color:#381800;
 	font-size:.875em;
 	margin:0;
 }
@@ -411,7 +411,7 @@ ul.nav.navbar-nav {
 	padding-top: 1em;
 }
 .footer-grid-heading h4{
-	color:#383838;
+	color:#381800;
 	font-size:2em;
 	margin:0;
 }
@@ -475,7 +475,7 @@ ul.nav.navbar-nav {
 .social ul li a i.fa.fa-facebook{
     height: 40px;
     width: 40px;
-    background: #383838;
+    background: #381800;
     line-height: 40px;
     color: #FFF;
     border-radius: 50%;
@@ -498,7 +498,7 @@ ul.nav.navbar-nav {
 .social ul li a i.fa.fa-twitter{
     height: 40px;
     width: 40px;
-    background: #383838;
+    background: #381800;
     line-height: 40px;
     color: #FFF;
     border-radius: 50%;
@@ -521,7 +521,7 @@ ul.nav.navbar-nav {
 .social ul li a i.fa.fa-rss{
     height: 40px;
     width: 40px;
-    background: #383838;
+    background: #381800;
     line-height: 40px;
     color: #FFF;
     border-radius: 50%;
@@ -544,7 +544,7 @@ ul.nav.navbar-nav {
 .social ul li a i.fa.fa-vk{
     height: 40px;
     width: 40px;
-    background: #383838;
+    background: #381800;
     line-height: 40px;
     color: #FFF;
     border-radius: 50%;
@@ -585,8 +585,8 @@ ul.nav.navbar-nav {
     outline: none;
 }
 .footer-grid-info form input[type="submit"] {
-    border: solid 2px #383838;
-    color: #383838;
+    border: solid 2px #381800;
+    color: #381800;
     font-size: .875em;
     padding: .5em 2em;
     text-decoration: none;
@@ -642,7 +642,7 @@ ul.nav.navbar-nav {
     margin: 0;
 }
 .agileits-a-about-right h4{
-    color: #383838;
+    color: #381800;
     font-size: .875em;
     margin: 1em 0;
     font-weight: 600;
@@ -721,10 +721,10 @@ ul.nav.navbar-nav {
     background: #DCEDF9;
 }
 .agileinfo-team-heading h3,.more-bottom-heading h3{
-	color:#383838;
+	color:#381800;
 }
 .agileinfo-team-heading p,.more-bottom-heading p{
-	color:#383838;
+	color:#381800;
 }
 .team-grids {
     margin: 0em 0 0 0;
@@ -783,7 +783,7 @@ ul.nav.navbar-nav {
     width: 40px;
     background: #FFFFFF;
     line-height: 40px;
-    color: #383838;
+    color: #381800;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -807,7 +807,7 @@ ul.nav.navbar-nav {
     width: 40px;
     background: #FFFFFF;
     line-height: 40px;
-    color: #383838;
+    color: #381800;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -831,7 +831,7 @@ ul.nav.navbar-nav {
     width: 40px;
     background: #FFFFFF;
     line-height: 40px;
-    color: #383838;
+    color: #381800;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -856,7 +856,7 @@ ul.nav.navbar-nav {
     margin: 4em 0 0 0;
 }
 .services-grid-info h4{
-    color: #383838;
+    color: #381800;
     font-size: 2em;
     margin: 0;
     text-decoration: none;
@@ -865,7 +865,7 @@ ul.nav.navbar-nav {
 .services-grid-info p{
     margin: 1em 0 0 0;
     font-size: .875em;
-    color: #383838;
+    color: #381800;
     line-height: 1.8em;
 }
 .services-grid-info:nth-child(2){
@@ -896,7 +896,7 @@ ul.nav.navbar-nav {
 .more-bottom-grid-text h5{
     margin: 0;
     font-size: .875em;
-    color: #383838;
+    color: #381800;
     line-height: 1.8em;
 }
 .more-bottom-grid-text p{
@@ -1282,7 +1282,7 @@ h2.typoh2{
     margin: 4em 0 0 0;
 }
 .contact-form-top h3{
-	color: #383838;
+	color: #381800;
     font-size: 2em;
     margin: 0;
 }
@@ -1313,7 +1313,7 @@ h2.typoh2{
 	text-decoration:none;
 }
 .contact-address ul li span a:hover{
-	color:#383838;
+	color:#381800;
 }
 .contact-address ul li	i.fa.fa-phone,.contact-address ul li i.fa.fa-map-marker{
     height: 40px;
@@ -1371,8 +1371,8 @@ h2.typoh2{
     margin-bottom: 1em;
 }
 button.btn1{
-    border: solid 2px #383838;
-    color: #383838;
+    border: solid 2px #381800;
+    color: #381800;
     font-size: .875em;
     padding: .5em 2em;
     text-decoration: none;
@@ -1398,7 +1398,7 @@ button.btn1:hover{
     margin: 2em 0 0 0;
 }
 .w3agile-map h3{
-    color: #383838;
+    color: #381800;
     font-size: 2em;
     margin: 0 0 1em 0;
 }
@@ -1421,14 +1421,14 @@ button.btn1:hover{
     margin: 0 0 1em;
     font-size: .875em;
     font-weight: 500;
-    color: #383838;
+    color: #381800;
 }
 .single-left-left p a {
     color: #fd5c63;
     text-decoration: none;
 }
 .single-left-left p a:hover{
-	color:#383838;
+	color:#381800;
 }
 .single-left-left img{
 	width:100%;
@@ -1468,7 +1468,7 @@ button.btn1:hover{
     margin: 1em 0 0 0;
 }
 .response-text-right p {
-    color: #383838;
+    color: #381800;
     font-size: .875em;
     margin: 0 0 1em;
     line-height: 1.8em;
@@ -1528,8 +1528,8 @@ button.btn1:hover{
     min-height: 125px;
 }
 .opinion form input[type="submit"] {
-    border: solid 2px #383838;
-    color: #383838;
+    border: solid 2px #381800;
+    color: #381800;
     font-size: .875em;
     padding: .5em 2em;
     margin: 1em 0 0 0;
@@ -1552,7 +1552,7 @@ button.btn1:hover{
 .blog-left-bottom p{
     font-size: .875em;
     margin: 0.5em 0;
-    color: #383838;
+    color: #381800;
     line-height: 1.8em;
 }
 .blog-left-bottom {
@@ -1585,7 +1585,7 @@ button.btn1:hover{
 .categories ul li a {
     font-size: .875em;
     margin: 0;
-    color: #383838;
+    color: #381800;
     padding-left: 2em;
 }
 .categories ul li a:hover {
