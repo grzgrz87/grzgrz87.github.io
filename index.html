@@ -45,12 +45,19 @@
     <link rel="stylesheet" href="css/simplelightbox.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="css/ken-burns.css">
     <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet"> 
-    
+    <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+  
+  
     <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/bootstrap.js" async="async"></script>
     <script src="js/jarallax.js" async="async"></script>
     <script src="js/SmoothScroll.min.js" async="async"></script>
+     <script src="js/slick.min.js" async="async"></script>
+   
+  
+
 </head>
 
 <body>
@@ -65,8 +72,8 @@
                         <li><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;Barbara:&nbsp;693 228 916</li>
                         <li><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;Rafał:&nbsp;661 066 769</li>
                         <li><a href="mailto:daczabiegacza@gmail.com"><i
-							class="fa fa-envelope" aria-hidden="true"></i>
-							daczabiegacza@gmail.com</a></li>
+							class="fa fa-envelope" aria-hidden="true">&nbsp;daczabiegacza@gmail.com</i>
+							</a></li>
                     </ul>
                 </div>
                 <div class="top-banner-right">
@@ -115,7 +122,7 @@
     </div>
     <!-- //banner -->
 
-
+    <section>
     <div id="kb" class="carousel kb_elastic animate_text kb_wrapper" data-ride="carousel" data-interval="6000" data-pause="hover">
         <!-- Wrapper for Slides -->
         <div class="carousel-inner" role="listbox">
@@ -157,13 +164,71 @@
         <a class="right carousel-control kb_control_right" href="#kb" role="button" data-slide="next"> <span class="fa fa-angle-right kb_icons" aria-hidden="true"></span> <span class="sr-only">Next</span>
         </a>
     </div>
-
-    <!-- footer -->
-   <div class="footer">
-
-        <div class="row">
-            <div class="col-md-2 col-md-offset-2">
-                <a href="http://www.chatak34.pl/" target="_blanck"> <img alt="" src="images/partnerzy/chata_biegacza.png">
+    </section>
+    
+    <section class="info-point text-center">
+		<div class="container">
+			<h2 class="text-light">CO ZAPEWNIAMY W DACZY?</h2>
+            <br>
+            
+			<ul class="fa-ul fa-2x">
+				<li><i class="fa-li fa fa-check-circle-o"></i>Piękne widoki</li>
+                <li><i class="fa-li fa fa-check-circle-o"></i>Aktywny wypoczynek</li>
+                <li><i class="fa-li fa fa-check-circle-o"></i>Ciszę</li>
+                <li><i class="fa-li fa fa-check-circle-o"></i>Spokój</li>
+			</ul>
+		</div>
+	</section>
+    
+   
+   <section class="comments" >
+    <div class="slider-img">
+        <br>
+         <h2 style="left: 10%" class="text-light">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CO MYŚLĄ O NAS INNI....</h2>
+   <div class="slider-com main">
+   
+    <div><div class="slider-text">Piękne położenie, super atmosfera, komfortowe warunki do biegania, wędrowania i odpoczywania, Czego chcieć więcej? Pyszna Szarlotka Półsłodka :) Jak dla mnie, jeżeli Zakopane, to tylko w Daczy u Basi i Rafała
+        </div>
+    <p class="slider-author">Adam</p>
+    </div>
+    <div><div class="slider-text">Malowniczo położony pensjonat prowadzony przez Basię i Rafała, przemiłych i gościnnych pasjonatów gór, biegania i zdrowego trybu życia. Polecam gorąco. Przy najbliższej okazji wracam na dłużej ..na bieganie, pogaduchy i...ciasto z cukinii Basia, Rafał dzięki za wszystko i do zobaczenia !
+        </div>
+    <p class="slider-author">Daniel</p>
+    </div>
+    <div><div class="slider-text">Ciemno,cicho ,ale też tak niezupełnie -słychać swierszcze na łące za domem,muczenie krowy,szczękające psy ,a to wszystko z cudownym widokiem na Tatry.I pobiegać jest gdzie
+        </div>
+    <p class="slider-author">Dorota</p>
+    </div>
+       <div><div class="slider-text"> Dacza Turysty i Biegacza... Wspaniałe miejsce stworzone przez bratnią biegową duszę Rafala - chłopie stworzyłeś wspaniałe miejsce ze świetną atmosferą, rób to nadal tak dobrze jak dobrze biegasz, a już przecież wiemy że biegasz wspaniale... Dziękujemy za mega weekend twojej gościny polecamy Cię wszędzie i wszystkim. Jest extra.
+        </div>
+    <p class="slider-author">Jakub</p>
+    </div>
+       
+      </div>
+  </div>
+</section>
+    
+   
+    
+    <script>
+     $('.slider-com').slick({
+   slidesToShow: 1,
+   slidesToScroll: 1,
+   arrows: false,
+   fade: true,
+   dots: true,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 8000
+ });
+    </script>
+   
+     <section class="partners text-center ">
+        <h2>PARTNERZY</h2>
+        <br>
+     <div class="row">
+            <div class="col-md-3 col-md-offset-1">
+                <a href="http://www.piotrhercog.pl/" target="_blanck"> <img alt="" src="images/partnerzy/piotrhercog.png">
                 </a>
             </div>
             <div class="col-md-2 footer-grid">
@@ -180,11 +245,11 @@
             </div>
 
         </div>
-        <div class="row">
-            <div class="col-md-offset-1 col-md-10">
-                <hr>
-            </div>
-        </div>
+    </section>
+    
+    
+    <!-- footer -->
+   <div class="footer dark-primary-color">
         <div class="row footer-page text-center">
             <div class="col-md-3 ">
                 <a href="index.html"> <img alt="Dacza turysty i biegacza" src="images/daczaturystyibiegaca.png"></a>
