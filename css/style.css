@@ -42,7 +42,7 @@ body {
 .top-banner-left ul li {
     display: inline-block;
     color: #fff;
-    font-size: .875em;
+    font-size: 1em;
 }
 
 .top-banner-left ul li a {
@@ -183,20 +183,29 @@ ul.nav.navbar-nav {
 /*-- slider --*/
 
 .slider {
-    background: url(../images/slider/1.jpg) no-repeat 0px 0px;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url(../images/slider/1.jpg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 800px;
     background-position: 10% 40%;
 }
 
 .slider1 {
-    background: url(../images/slider/2.jpg) no-repeat 0px 0px;
+    background:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/slider/2.jpg) no-repeat 0px 0px;
     background-size: cover;
     background-position: 10% 40%;
 }
 
 .slider2 {
-    background: url(../images/slider/3.jpg) no-repeat 0px 0px;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url(../images/slider/3.jpg) no-repeat 0px 0px;
     background-size: cover;
     background-position: 10% 40%;
 }
@@ -3089,7 +3098,10 @@ i.fa {
 }
 
 .slider-img{
-    background-image: url(../images/comp.jpg);
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url(../images/dacza-rafal-basia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;

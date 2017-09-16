@@ -148,6 +148,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							terminie 7 dni od daty rezerwacji. Brak wpłaty w ustalonym
 							terminie powoduje anulowanie rezerwacji. Zaliczka nie jest
 							zwracana.</li>
+                        <li>Brak wpłaty w ustalonym
+							terminie powoduje anulowanie rezerwacji. Zaliczka nie jest
+							zwracana.</li>
 						<li>Dokonanie wpłaty zaliczki oznacza akceptację warunków
 							niniejszego regulaminu.</li>
 						<li>Należność za pobyt pobierana jest w dniu przyjazdu,
@@ -245,6 +248,44 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
 
     </div>
+<script>
+    function removeSingleCharLineBreak(){
+var words = ['a', 'i', 's', 'z', 'v', 'k', 'o', 'u', 
+    'A', 'I', 'S', 'Z', 'V', 'K', 'O', 'U', '€',
+    'na', 'za', 'do', 'Na', 'Za', 'Do',
+    ];
 
+var elements = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li', 'td', 'td'];
+
+$.each(words, function(index, word){
+
+    var regex = new RegExp(" " + word + " ", "g");
+
+    $.each(elements, function(index, element){
+
+        $(element + ':contains( ' + word + ' )').each(function(){
+
+            if (word == '€') 
+            {
+                $(this).html(
+                    $(this).html().replace(regex, '&nbsp;' + word + '&nbsp;')
+                );       
+            }
+            else
+            {
+                $(this).html(
+                    $(this).html().replace(regex, ' ' + word + '&nbsp;')
+                );                    
+            }
+
+        });
+
+    });
+
+});
+    };
+        
+        removeSingleCharLineBreak();
+    </script>
 </body>
 </html>

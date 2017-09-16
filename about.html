@@ -139,7 +139,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <div class="container">
                         <div class="team-grids">
                             <div class="col-md-3 agileinfo-team-grid">
-                                <img src="images/basia.jpg" alt="" />
+                                <img src="images/DSCN943333-min2.jpg" alt="" />
                                 <div class="captn">
                                     <h4>Barbara</h4>
                                 </div>
@@ -237,6 +237,48 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
 
     </div>
+    
+    <script>
+    function removeSingleCharLineBreak(){
+var words = ['a', 'i', 's', 'z', 'v', 'k', 'o', 'u', 
+    'A', 'I', 'S', 'Z', 'V', 'K', 'O', 'U', '€',
+    'na', 'za', 'do', 'Na', 'Za', 'Do',
+    ];
+
+var elements = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li', 'td', 'td'];
+
+$.each(words, function(index, word){
+
+    var regex = new RegExp(" " + word + " ", "g");
+
+    $.each(elements, function(index, element){
+
+        $(element + ':contains( ' + word + ' )').each(function(){
+
+            if (word == '€') 
+            {
+                $(this).html(
+                    $(this).html().replace(regex, '&nbsp;' + word + '&nbsp;')
+                );       
+            }
+            else
+            {
+                $(this).html(
+                    $(this).html().replace(regex, ' ' + word + '&nbsp;')
+                );                    
+            }
+
+        });
+
+    });
+
+});
+    };
+        
+        removeSingleCharLineBreak();
+       
+    </script>
+    
 
 </body>
 
