@@ -50,7 +50,7 @@ body {
     font-size: 1em;
 }
 
-.top-banner-left ul li:nth-child(2) {
+.top-banner-left ul li {
    margin-left: 0.5em;
 }
 
@@ -808,7 +808,7 @@ ul.nav.navbar-nav {
 
 .agileits-a-about-right h4 {
     color: #351000;
-    font-size: .875em;
+    font-size: 1.125em;
     margin: 1em 0;
     font-weight: 600;
     text-decoration: none;
@@ -817,14 +817,20 @@ ul.nav.navbar-nav {
 
 .agileits-a-about-right p {
     margin: 1em 0 0 0;
-    font-size: .875em;
+    font-size: 1.125em;
+    color: #2e2f2f;
+    line-height: 1.8em;
+}
+
+.font18 {
+    font-size: 1.125em;
     color: #2e2f2f;
     line-height: 1.8em;
 }
 
 .agileits-a-about-right p span {
     display: block;
-    margin: 1em 0 0 0;
+    margin: 1.25em 0 0 0;
 }
 
 
@@ -1659,9 +1665,6 @@ h2.typoh2 {
 
 .contact-form-top p {
     color: #2e2f2f;
-    margin: 2em 0;
-    font-size: .875em;
-    line-height: 1.8em;
 }
 
 .contact-address {
@@ -3066,8 +3069,8 @@ i.fa {
 .partners,
 .comments,
 .footer {
-    padding-top: 20px;
-     padding-bottom:20px;
+    padding-top: 40px;
+     padding-bottom:40px;
 }
 .info-point ul{
     display: inline-block;
